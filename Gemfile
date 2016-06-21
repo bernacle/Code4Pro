@@ -13,7 +13,8 @@ gem 'devise', '~> 4.1', '>= 4.1.1'
 gem 'toastr-rails'
 gem 'sendgrid-ruby'
 gem 'omniauth', '~> 1.3', '>= 1.3.1'
-gem 'omniauth-google-oauth2', '~> 0.4.1' 
+gem 'omniauth-google-oauth2', '~> 0.4.1'
+gem 'omniauth-facebook'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 
