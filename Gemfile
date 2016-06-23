@@ -24,6 +24,8 @@ gem 'active_skin'
 gem 'redcarpet', '~> 3.3', '>= 3.3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.1'
 
+gem 'friendly_id', '~> 5.1'
+
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
