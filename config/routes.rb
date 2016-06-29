@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   root "project#index"
   get 'pages/about'
+  post '/free' => 'charge#free'
 
   resources :project do
     resources :task, only: [:show]
