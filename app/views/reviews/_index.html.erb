@@ -11,7 +11,7 @@
       <div class="col m10">
         <div>
           <strong><%= review.user.name %></strong>
-          <span class="right"><%= review.created_at %></span>
+          <span class="right"><%= time_ago_in_words(review.created_at) %> ago</span>
         </div>
         <div id="stars_<%= review.id %>"></div>
         <div><%= review.comment %></div>
@@ -28,4 +28,5 @@
         });
       </script>
   <% end %>
+
 <% end %>
