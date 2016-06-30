@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  project_id: 
+  user_id: 
+  comment: MyText
+  star: 1
+
+two:
+  project_id: 
+  user_id: 
+  comment: MyText
+  star: 1
