@@ -22,6 +22,8 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'active_skin'
 gem 'active_admin-sortable_tree', '~> 0.2.1'
 
+gem 'stripe'
+
 gem 'redcarpet', '~> 3.3', '>= 3.3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.1'
 

@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get '/myprojects' => 'project#list'
   get 'pages/about'
   post '/free' => 'charge#free'
+  post '/pay' => 'charge#pay'
 
   resources :project do
     resources :task, only: [:show]
