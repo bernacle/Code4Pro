@@ -29,8 +29,8 @@
     address: 'smtp.sendgrid.net',
     port: 587,
     enable_starttls_auto: true,
-    user_name: 'demo.simplicio',
-    password: 'berna9973',
+    user_name: ENV['SENDGRID_USERNAME'],
+    password: ENV['SENDGRID_PASSWORD'],
     authentication: :login
   }
 
